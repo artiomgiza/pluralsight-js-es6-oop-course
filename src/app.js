@@ -1,15 +1,24 @@
 import $ from 'jquery'
-// import { Button } from './ui/button.js';
-// import { Image } from './ui/image.js';
-import { TitleBar } from './ui/title-bar.js';
+import { ApplicationBase } from './framework/application-base.js';
+import { Cars } from './services/cars.js';
+import { HomePage } from './home-page.js';
+import { CarsPage } from './cars-page.js';
+import { MapPage } from './map-page.js';
 
 
-let tb = new TitleBar('Our app')
-tb.addLink('Home', '');
-tb.addLink('Cars', '');
-tb.addLink('Drones', '');
-tb.addLink('Map', '');
-tb.appendToElement($('body'))
 
-// let i = new Image('../images/drone.jpg');
-// i.appendToElement($('body'))
+export class App extends ApplicationBase {
+  constructor() {
+    super('Fleet manager')
+    this.cars = new Cars().cars();
+
+    this.addRoute('Home', new HomePage(), true);
+    this.addRoute('Cars', new CarsPage());
+    this.addRoute('Map', new MapPage());
+
+  }
+}
+
+export let application = new App();
+application.show($('body'));
+
