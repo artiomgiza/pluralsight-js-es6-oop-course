@@ -5,6 +5,8 @@ Example:
 
 ![Alt text](./readme_resources/example.png?width=300px "Title")
 
+<img src="./readme_resources/example.png" width="200" />
+
 Run:
 
 npm run dev
