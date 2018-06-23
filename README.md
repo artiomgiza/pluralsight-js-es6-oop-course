@@ -3,7 +3,7 @@ https://app.pluralsight.com/library/courses/javascript-es6-object-oriented-progr
 
 Example:
 
-<img src="./readme_resources/example.png" onclick="" alt="drawing" style="max-width:300px;"/>
+<img src="./readme_resources/example.png" alt="drawing" style="max-width:300px;"/>
 
 
 Run:
