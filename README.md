@@ -3,7 +3,10 @@ https://app.pluralsight.com/library/courses/javascript-es6-object-oriented-progr
 
 Example:
 
-<img src="./readme_resources/example.png" width="300" />
+<img src="./readme_resources/1.png" width="300" />
+<img src="./readme_resources/2.png" width="300" />
+<img src="./readme_resources/3.png" width="300" />
+<img src="./readme_resources/4.png" width="300" />
 
 Run:
 
