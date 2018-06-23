@@ -3,7 +3,7 @@ https://app.pluralsight.com/library/courses/javascript-es6-object-oriented-progr
 
 Example:
 
-![](./readme_resources/example.png =300x)
+![drawing](./readme_resources/example.png =300x)
 
 
 Run:
