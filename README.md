@@ -3,9 +3,7 @@ https://app.pluralsight.com/library/courses/javascript-es6-object-oriented-progr
 
 Example:
 
-![Alt text](./readme_resources/example.png?width=300px "Title")
-
-<img src="./readme_resources/example.png" width="200" />
+<img src="./readme_resources/example.png" width="300" />
 
 Run:
 
