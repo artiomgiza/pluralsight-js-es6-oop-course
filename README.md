@@ -2,7 +2,8 @@
 https://app.pluralsight.com/library/courses/javascript-es6-object-oriented-programming/table-of-contents
 
 Example:
-![Alt text](./readme_resources/example.png?raw=true "Title")
+
+<img src="./readme_resources/example.png" onclick="" alt="drawing" style="width:300px;"/>
 
 
 Run:
